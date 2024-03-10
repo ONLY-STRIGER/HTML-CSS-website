@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+     
+
+<script src="https://kit.fontawesome.com/05e5bb67c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="Images/FS logo.png  " alt="">
+        </div>
+
+        
+
+        
+
+        <!-- NAVIGATION  -->
+        <nav>
+
+            <div class="nav-elements" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="About_us.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="Contact_us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <!-- NAVIGATION -->
+
+
+    </header>
+
+
+<!-- ===============ABOUT US ============================ -->
+
+<div class="About_banner">
+    <div class="About_bnr_text text-center">
+        <h1>About Us</h1>
+
+        <p>This is company's about us page</p>
+    </div>
+</div>
+
+
+<div class="row about_img">
+<div class="container">
+    <div class="col-6">
+        <img src="/Images/About-banner 2.jpg" alt="" class="img_responsive">
+    </div>
+    <div class="col-6 text-center">
+        <h1 >About US</h1>
+        <p >At our core, we believe in the power of education and collaboration to drive meaningful change in the tech industry. Whether you're a seasoned developer looking to expand your skills or a newcomer eager to embark on your coding journey, we invite you to join our community. Together, let's inspire, learn, and create the future of technology!</p>
+        
+    </div>
+</div>
+</div>
+
+
+
+<div class="row about_img">
+    <div class="container">
+        <div class="col-6 text-center">
+            <h1 >Our Company</h1>
+            <p >Our company is driven by a passion for technology and a commitment to empowering individuals through education. We strive to create a welcoming community where learners of all levels can come together to explore the latest trends in computer science and web development. With a focus on innovation and collaboration, we aim to inspire our audience to push boundaries and unlock their full potential in the digital world. Join us on this exciting journey of discovery and growth as we pave the way for a brighter, more connected future through technology.</p>
+            
+        </div>
+        <div class="col-6">
+            <img src="/Images/About-banner 2.jpg" alt="" class="img_responsive">
+        </div>
+
+        <div class="p10">
+            <h1>
+                FAHAD SULTAN
+            </h1>
+            <p>
+                Fahad Sultan is an integral part of our team, bringing a unique perspective and a wealth of knowledge to our community. With a background in Computer Science and a passion for problem-solving, Fahad plays a crucial role in creating engaging and informative content for our audience. His dedication to learning and sharing his knowledge inspires others to embark on their own learning journeys. As a key contributor to our Instagram channel, Fahad's expertise in Data Structures, Algorithms, and Web Development adds tremendous value to our community, making him a driving force behind our mission to educate and empower individuals in the tech industry.
+            </p> <br>
+            <br>
+            <a href="Contact_us.html" class="btn-Secondry">Contact_ US</a>
+        </div>
+        
+    </div>
+    </div>
+
+   
+<!-- ===============ABOUT US ============================ -->
+
+
+    <footer>
+
+        <div class="logo">
+            <img src="/Images/FS logo.png" alt="">
+        </div>
+        <div class="row footer">
+        
+            <div class="container">
+
+                <div class="col-3" >
+                    <h2 class="text-center">Information</h2>
+                    <ul>
+                        <li>NAME</li>
+                        <li>Team</li>
+                        <li>Country</li>
+                        <li>City</li>
+                        <li>Location</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">About us</h2>
+                    <ul>
+                        <li>Team</li>
+                        <li>Managers</li>
+                        <li>Employes</li>
+                        <li>Work</li>
+                        <li>Life style</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">Services</h2>
+                    <ul>
+                        <li>Service 1</li>
+                        <li>Service 2</li>
+                        <li>Service 3</li>
+                        <li>Service 4</li>
+                        <li>Service 5</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">Blog </h2>
+                    <ul>
+                        <li>Hubspot</li>
+                        <li>CNN</li>
+                        <li>WIX</li>
+                        <li>Medium</li>
+                        <li>Bloger</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <p class="Copyright">Copyright &#169; 2024 | Fahad_Sultan</p>
+
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.left="0";
+        }
+
+        function hideMenu(){
+            navlinks.style.left="-50%";
+        }
+    </script>
+</body>
+</html>

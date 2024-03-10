@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+     
+
+<script src="https://kit.fontawesome.com/05e5bb67c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="Images/FS logo.png  " alt="">
+        </div>
+
+        
+
+        
+
+        <!-- NAVIGATION  -->
+        <nav>
+
+            <div class="nav-elements" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="About_us.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="Contact_us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <!-- NAVIGATION -->
+
+
+    </header>
+
+
+<!-- ===============Contact ============================ -->
+
+<div class="About_banner">
+    <div class="About_bnr_text">
+        <h1>Contact US</h1>
+        <small>Contact us Our Amazing Support</small>
+
+    </div>
+</div>
+<h1 class="contact-heading ">Contact US HERE</h1>
+<div class="row CON">
+    
+    <div class="container">
+        <div class="col-6 our-contact"> 
+            <h2>Contact_US</h2>
+            <p><b>Email:</b>FS@gmail.com</p>
+            <p><b>Phone-no :</b>+92-0000000</p>
+            <p><b>Website :</b>FS.com</p>
+        </div>
+        <div class="col-6 send-message" >
+
+            <form action="">
+                <label>Full Name:</label><input name="Name" type="text" >
+                <label >Email:</label><input name="Email" type="text" ->
+                <label >Phone-no</label><input name="Phone" type="text" >
+                <label>Message</label><textarea name="message" id="msg" cols="57" rows="10" ></textarea>
+                <input type="button" value="Submit">
+            
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+   
+<!-- ===============Contact============================ -->
+
+
+    <footer>
+
+        <div class="logo">
+            <img src="/Images/FS logo.png" alt="">
+        </div>
+        <div class="row footer">
+        
+            <div class="container">
+
+                <div class="col-3" >
+                    <h2 class="text-center">Information</h2>
+                    <ul>
+                        <li>NAME</li>
+                        <li>Team</li>
+                        <li>Country</li>
+                        <li>City</li>
+                        <li>Location</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">About us</h2>
+                    <ul>
+                        <li>Team</li>
+                        <li>Managers</li>
+                        <li>Employes</li>
+                        <li>Work</li>
+                        <li>Life style</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">Services</h2>
+                    <ul>
+                        <li>Service 1</li>
+                        <li>Service 2</li>
+                        <li>Service 3</li>
+                        <li>Service 4</li>
+                        <li>Service 5</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">Blog </h2>
+                    <ul>
+                        <li>Hubspot</li>
+                        <li>CNN</li>
+                        <li>WIX</li>
+                        <li>Medium</li>
+                        <li>Bloger</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <p class="Copyright">Copyright &#169; 2024 | Fahad_Sultan</p>
+
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.left="0";
+        }
+
+        function hideMenu(){
+            navlinks.style.left="-50%";
+        }
+    </script>
+</body>
+</html>

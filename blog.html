@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+     
+
+<script src="https://kit.fontawesome.com/05e5bb67c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="Images/FS logo.png  " alt="">
+        </div>
+
+        
+
+        
+
+        <!-- NAVIGATION  -->
+        <nav>
+
+            <div class="nav-elements" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="About_us.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="Contact_us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <!-- NAVIGATION -->
+
+
+    </header>
+
+
+<!-- ===============BLOG ============================ -->
+
+<div class="About_banner">
+    <div class="About_bnr_text">
+        <h1>Our BLOGS</h1>
+
+        <p>Read  Our Blogs & News</p>
+    </div>
+</div>
+
+
+
+<h1 class="text-center team_heading">Blogs & News</h1>
+
+<div class="row">
+<div class="container">
+    <div class="col-8  prob">
+
+        <div class="row multi-blg">
+
+            <img src="/Images/blog1.jpg" alt="" class="img_responsive ">
+
+            <div class="bside-img ">
+                <h3>Team_work</h3>
+                <small>01-Aprail-2024</small><br>
+                
+            </div>
+        </div>
+
+
+        <div class="row multi-blg">
+
+            <img src="/Images/blog2.jpg" alt="" class="img_responsive ">
+
+            <div class="bside-img ">
+                <h3>Teahnologies</h3>
+                <small>09-may-2024</small>
+            </div>
+        </div>
+
+        <div class="row multi-blg">
+
+            <img src="/Images/blog3.jpg" alt="" class="img_responsive ">
+
+            <div class="bside-img ">
+                <h3>Human-Resource</h3>
+                <small>05-june-2024</small>
+            </div>
+        </div>
+
+        <div class="row multi-blg">
+
+            <img src="/Images/blog4.jpg" alt="" class="img_responsive ">
+
+            <div class="bside-img ">
+                <h3>Future</h3>
+                <small>03-july-2024</small>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="col-4 blog_cat">
+        <h2 >Catagaries</h2>
+        <ul >
+            <li>News</li>
+            <li>Blogs</li>
+            <li>Technlogies</li>
+            <li>Future</li>
+        </ul>
+
+        <br><br>
+
+        <h2 >Archives</h2>
+        <ul >
+            <li>Aprail</li>
+            <li>May</li>
+            <li>June</li>
+            <li>July</li>
+        </ul>
+    </div>
+    
+</div>
+</div>
+
+
+
+
+
+   
+<!-- ===============BLOG============================ -->
+
+
+    <footer>
+
+        <div class="logo">
+            <img src="/Images/FS logo.png" alt="">
+        </div>
+        <div class="row footer">
+        
+            <div class="container">
+
+                <div class="col-3" >
+                    <h2 class="text-center">Information</h2>
+                    <ul>
+                        <li>NAME</li>
+                        <li>Team</li>
+                        <li>Country</li>
+                        <li>City</li>
+                        <li>Location</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">About us</h2>
+                    <ul>
+                        <li>Team</li>
+                        <li>Managers</li>
+                        <li>Employes</li>
+                        <li>Work</li>
+                        <li>Life style</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">Services</h2>
+                    <ul>
+                        <li>Service 1</li>
+                        <li>Service 2</li>
+                        <li>Service 3</li>
+                        <li>Service 4</li>
+                        <li>Service 5</li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h2 class="text-center">Blog </h2>
+                    <ul>
+                        <li>Hubspot</li>
+                        <li>CNN</li>
+                        <li>WIX</li>
+                        <li>Medium</li>
+                        <li>Bloger</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <p class="Copyright">Copyright &#169; 2024 | Fahad_Sultan</p>
+
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.left="0";
+        }
+
+        function hideMenu(){
+            navlinks.style.left="-50%";
+        }
+    </script>
+</body>
+</html>
